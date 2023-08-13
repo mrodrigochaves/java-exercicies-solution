@@ -61,4 +61,11 @@ public class ContaCorrente {
     public void saldo() {
         System.out.println("Saldo atual: " + saldo);
     }
+
+    public void save() {
+        System.out.println("Informações da conta salvas: ");
+        System.out.println("ID: " + id);
+        System.out.println("Nome: " + nomeCliente);
+        System.out.println("Saldo: " + saldo);
+    }
 }
