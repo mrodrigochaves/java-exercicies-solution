@@ -37,7 +37,7 @@ public class Pessoa {
     
     public void imprimeDados(){
         System.out.println("O nome é: " + nome);
-        System.out.println("A data de nascimento é: " + dataNascimento);
+        System.out.println("A data de nascimento é: " + dataNascimento.getTime());
         System.out.println("A altura é: " + altura);
     }
 
