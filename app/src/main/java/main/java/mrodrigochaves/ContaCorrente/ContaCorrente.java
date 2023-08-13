@@ -58,4 +58,7 @@ public class ContaCorrente {
         }
     }
     
+    public void saldo() {
+        System.out.println("Saldo atual: " + saldo);
+    }
 }
