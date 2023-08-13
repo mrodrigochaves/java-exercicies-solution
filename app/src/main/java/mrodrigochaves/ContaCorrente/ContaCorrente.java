@@ -1,4 +1,4 @@
-package main.java.mrodrigochaves.ContaCorrente;
+package mrodrigochaves.ContaCorrente;
 
 public class ContaCorrente {
     

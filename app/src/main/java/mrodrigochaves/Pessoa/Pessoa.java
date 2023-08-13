@@ -1,4 +1,4 @@
-package main.java.mrodrigochaves.Pessoa;
+package mrodrigochaves.Pessoa;
 
 import java.util.Calendar;
 
