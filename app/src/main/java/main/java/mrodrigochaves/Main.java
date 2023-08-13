@@ -2,6 +2,8 @@ package main.java.mrodrigochaves;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+
+import main.java.mrodrigochaves.ContaCorrente.ContaCorrente;
 import main.java.mrodrigochaves.Pessoa.Pessoa;
 
 public class Main {
@@ -14,5 +16,15 @@ public class Main {
         pessoa.imprimeDados();
         int idade = pessoa.calculaIdade();
         System.out.println("A idade é: " + idade + " anos");
+
+
+        ContaCorrente contaCorrente = new ContaCorrente(1L, "João", 250.00);
+        
+        contaCorrente.saque(100.00);
+        contaCorrente.deposito(50.00);
+        contaCorrente.saldo();
+        
+        contaCorrente.save();
+
     }
 }
