@@ -1,14 +1,15 @@
 package main.java.mrodrigochaves.Pessoa;
 
-import java.util.Date;
+import java.util.Calendar;
+
 
 public class Pessoa {
 
     private String nome;
-    private Date dataNascimento;
+    private Calendar dataNascimento;
     private double altura;
 
-    public Pessoa( String nome, Date dataNascimento, double altura){
+    public Pessoa( String nome, Calendar dataNascimento, double altura){
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.altura = altura;
@@ -21,10 +22,10 @@ public class Pessoa {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public Date getDataNascimento() {
+    public Calendar getDataNascimento() {
         return dataNascimento;
     }
-    public void setDataNascimento(Date dataNascimento) {
+    public void setDataNascimento(Calendar dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
     public double getAltura() {
@@ -40,10 +41,10 @@ public class Pessoa {
         System.out.println("A altura é: " + altura);
     }
 
-    public int calculaIdade(){
-        Date dataAtual = new Date();
-        int anoAtual = dataAtual.getYear() + 1900;
-        int anoNascimento = dataNascimento.getYear() + 1900;
+    public int calculaIdade() {
+        Calendar dataAtual = Calendar.getInstance();
+        int anoAtual = dataAtual.get(Calendar.YEAR);
+        int anoNascimento = dataNascimento.get(Calendar.YEAR);
         return anoAtual - anoNascimento;
     }
 }
