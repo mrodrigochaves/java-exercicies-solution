@@ -36,7 +36,9 @@ public class ContaCorrente {
         this.saldo = saldo;
     }
 
-    
+    public void alterarNome(String novoNome) {
+        this.nomeCliente = novoNome;
+    }
 
     
 }
