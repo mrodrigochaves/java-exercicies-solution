@@ -27,3 +27,7 @@ Java é chamado de independente de plataforma por causa de seus códigos de byte
 4 - Por que Java não é 100% orientado a objetos?
 
 Java não é 100% orientado a objetos porque faz uso de oito tipos de dados primitivos, como boolean, byte, char, int, float, double, long, short, que não são objetos.
+
+
+5 - O que são classes wrapper em Java?
+As classes wrapper convertem os primitivos Java nos tipos de referência (objetos). Todo tipo de dado primitivo tem uma classe dedicada a ele. Elas são conhecidas como classes wrapper porque “envolvem” o tipo de dado primitivo em um objeto dessa classe. Consulte a imagem abaixo que exibe diferentes tipos primitivos, classe wrapper e argumento do construtor.
