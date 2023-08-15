@@ -20,3 +20,6 @@ static : É uma palavra-chave em java que identifica que é baseado em classe. m
 void : é o tipo de retorno do método. Void define o método que não retornará nenhum valor.
 main : É o nome do método que é pesquisado pela JVM como ponto de partida para um aplicativo apenas com uma assinatura específica. É o método onde ocorre a execução principal.
 String args[] : É o parâmetro passado para o método principal.
+
+3 - Por que Java é independente de plataforma?
+Java é chamado de independente de plataforma por causa de seus códigos de byte que podem ser executados em qualquer sistema, independentemente de seu sistema operacional subjacente.
