@@ -37,3 +37,6 @@ Em Java, construtor refere-se a um bloco de código usado para inicializar um ob
 Existem dois tipos de construtores:
 Construtor Padrão: Em Java, um construtor padrão é aquele que não recebe nenhuma entrada. Em outras palavras, os construtores padrão são os construtores sem argumento que serão criados por padrão caso nenhum outro construtor seja definido pelo usuário. Seu principal objetivo é inicializar as variáveis ​​de instância com os valores padrão. Além disso, é usado principalmente para a criação de objetos. 
 Construtor Parametrizado: O construtor parametrizado em Java é o construtor capaz de inicializar as variáveis ​​de instância com os valores fornecidos. Em outras palavras, os construtores que recebem os argumentos são chamados de construtores parametrizados.
+
+7 - O que é classe singleton em Java e como podemos criar uma classe singleton?
+A classe Singleton é uma classe cuja única instância pode ser criada a qualquer momento, em uma JVM. Uma classe pode se tornar singleton tornando seu construtor privado.
