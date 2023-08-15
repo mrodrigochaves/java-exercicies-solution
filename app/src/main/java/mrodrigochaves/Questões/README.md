@@ -40,3 +40,19 @@ Construtor Parametrizado: O construtor parametrizado em Java é o construtor cap
 
 7 - O que é classe singleton em Java e como podemos criar uma classe singleton?
 A classe Singleton é uma classe cuja única instância pode ser criada a qualquer momento, em uma JVM. Uma classe pode se tornar singleton tornando seu construtor privado.
+
+8 - Qual é a diferença entre lista de array e vetor em Java?
+ArrayList
+Vetor
+A lista de matrizes não está sincronizada.
+ O vetor é sincronizado.
+Array List é rápido, pois não é sincronizado.
+O vetor é lento, pois é thread-safe.
+Se um elemento for inserido na Lista de Array, ele aumenta seu tamanho de Array em 50%.
+O padrão do vetor é dobrar o tamanho de sua matriz.
+Array List não define o tamanho do incremento.
+Vector define o tamanho do incremento.
+A lista de matrizes só pode usar o Iterator para percorrer uma lista de matrizes.
+Vector pode usar Enumeração e Iterator para percorrer.
+
+
