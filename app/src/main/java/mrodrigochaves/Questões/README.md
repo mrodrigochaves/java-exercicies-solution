@@ -31,3 +31,9 @@ Java não é 100% orientado a objetos porque faz uso de oito tipos de dados prim
 
 5 - O que são classes wrapper em Java?
 As classes wrapper convertem os primitivos Java nos tipos de referência (objetos). Todo tipo de dado primitivo tem uma classe dedicada a ele. Elas são conhecidas como classes wrapper porque “envolvem” o tipo de dado primitivo em um objeto dessa classe. Consulte a imagem abaixo que exibe diferentes tipos primitivos, classe wrapper e argumento do construtor.
+
+6 - O que são construtores em Java?
+Em Java, construtor refere-se a um bloco de código usado para inicializar um objeto. Deve ter o mesmo nome da classe. Além disso, não possui tipo de retorno e é chamado automaticamente quando um objeto é criado.
+Existem dois tipos de construtores:
+Construtor Padrão: Em Java, um construtor padrão é aquele que não recebe nenhuma entrada. Em outras palavras, os construtores padrão são os construtores sem argumento que serão criados por padrão caso nenhum outro construtor seja definido pelo usuário. Seu principal objetivo é inicializar as variáveis ​​de instância com os valores padrão. Além disso, é usado principalmente para a criação de objetos. 
+Construtor Parametrizado: O construtor parametrizado em Java é o construtor capaz de inicializar as variáveis ​​de instância com os valores fornecidos. Em outras palavras, os construtores que recebem os argumentos são chamados de construtores parametrizados.
