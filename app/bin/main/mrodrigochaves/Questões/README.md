@@ -13,3 +13,10 @@ Ele contém ferramentas de desenvolvimento JRE +.
 É uma implementação da JVM que existe fisicamente.
 A JVM segue três notações: Especificação, Implementação e  Instância de tempo de execução .
 
+2 - Explique public static void main(String args[]) em Java.
+main() em Java é o ponto de entrada para qualquer programa Java. É sempre escrito como public static void main(String[] args) .
+public : Public é um modificador de acesso, que é usado para especificar quem pode acessar este método. Público significa que este Método será acessível por qualquer Classe.
+static : É uma palavra-chave em java que identifica que é baseado em classe. main() é feito estático em Java para que possa ser acessado sem criar a instância de uma classe. No caso de main não se tornar estático, o compilador lançará um erro, pois main () é chamado pela JVM antes de qualquer objeto ser criado e apenas métodos estáticos podem ser invocados diretamente por meio da classe. 
+void : é o tipo de retorno do método. Void define o método que não retornará nenhum valor.
+main : É o nome do método que é pesquisado pela JVM como ponto de partida para um aplicativo apenas com uma assinatura específica. É o método onde ocorre a execução principal.
+String args[] : É o parâmetro passado para o método principal.
