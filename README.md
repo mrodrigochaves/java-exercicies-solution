@@ -1,2 +1,3 @@
 # Repository for publishing java exec solutions
-1 - Quarkus app create
+1 - Exercicies example
+2 - Questions Java
