@@ -23,3 +23,7 @@ String args[] : É o parâmetro passado para o método principal.
 
 3 - Por que Java é independente de plataforma?
 Java é chamado de independente de plataforma por causa de seus códigos de byte que podem ser executados em qualquer sistema, independentemente de seu sistema operacional subjacente.
+
+4 - Por que Java não é 100% orientado a objetos?
+
+Java não é 100% orientado a objetos porque faz uso de oito tipos de dados primitivos, como boolean, byte, char, int, float, double, long, short, que não são objetos.
