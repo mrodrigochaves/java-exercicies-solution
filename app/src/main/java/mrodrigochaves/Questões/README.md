@@ -43,3 +43,54 @@ Array List é rápido, pois não é sincronizado. | O vetor é lento, pois é th
 Se um elemento for inserido na Lista de Array, ele aumenta seu tamanho de Array em 50%. | O padrão do vetor é dobrar o tamanho de sua matriz.
 Array List não define o tamanho do incremento. | Vector define o tamanho do incremento.
 A lista de matrizes só pode usar o Iterator para percorrer uma lista de matrizes. | Vector pode usar Enumeração e Iterator para percorrer.
+
+#### 9 - Qual é a diferença entre equals () e == em Java?
+O método Equals() é definido na classe Object em Java e usado para verificar a igualdade de dois objetos definidos pela lógica de negócios.
+“==” ou operador de igualdade em Java é um operador binário fornecido pela linguagem de programação Java e usado para comparar primitivos e objetos. public boolean equals(Object o) é o método fornecido pela classe Object. A implementação padrão usa o operador == para comparar dois objetos. Por exemplo: o método pode ser substituído como a classe String. equals() é usado para comparar os valores de dois objetos.
+
+#### 10 - Quando você pode usar a palavra-chave super? 
+Em Java, a palavra-chave super é uma variável de referência que se refere a um objeto de classe pai imediato.
+Ao criar uma instância de subclasse, você também está criando uma instância da classe pai, que é referenciada pela variável de super referência.
+Os usos da super palavra-chave Java são: 
+- Para se referir a uma variável de instância de classe pai imediata, use super.
+- A palavra-chave super pode ser usada para chamar o método de uma classe pai imediata.
+- Super() pode ser usado para chamar o construtor da classe pai imediata.
+- 
+#### 11 - O que torna um HashSet diferente de um TreeSet?
+HashSet | TreeSet
+------  | ------
+É implementado através de uma tabela hash. | TreeSet implementa a interface SortedSet que usa árvores para armazenar dados.
+Ele permite o objeto nulo. | Não permite o objeto nulo.
+É mais rápido que o TreeSet, especialmente para operações de pesquisa, inserção e exclusão. | É mais lento que o HashSet para essas operações.
+Não mantém os elementos de forma ordenada. | Os elementos são mantidos em uma ordem classificada. 
+Ele usa o método equals() para comparar dois objetos. | Ele usa o método compareTo() para comparar dois objetos.
+Não permite um objeto heterogêneo. | Permite um objeto heterogêneo.
+
+#### 12 - Quais são as diferenças entre HashMap e HashTable em Java?
+HashMap | Hashtable
+------  | ------
+Não é sincronizado. Ele não pode ser compartilhado entre muitos threads sem o código de sincronização adequado. | Está sincronizado. É thread-safe e pode ser compartilhado com muitos threads.
+Ele permite uma chave nula e vários valores nulos. | Ele não permite nenhuma chave ou valor nulo.
+é uma nova classe introduzida no JDK 1.2. | Ele também estava presente em versões anteriores do java.
+É mais rápido. | É mais lento.
+Ele é percorrido pelo iterador. | Ele é percorrido por Enumerator e Iterator.
+Ele usa um iterador rápido de falha. | Ele usa um enumerador que não falha rapidamente.
+Ele herda a classe AbstractMap. | Ele herda a classe Dictionary.
+
+#### 13 - Qual é a importância da Reflection em Java?
+Reflection é uma API de tempo de execução para inspecionar e alterar o comportamento de métodos, classes e interfaces. O Java Reflection é uma ferramenta poderosa que pode ser realmente benéfica. O Java Reflection permite analisar classes, interfaces, campos e métodos durante o tempo de execução sem saber como eles são chamados no tempo de compilação. A reflexão também pode ser usada para criar novos objetos, chamar métodos e obter/definir valores de campo. Classes externas definidas pelo usuário podem ser usadas criando instâncias de objetos de extensibilidade com seus nomes totalmente qualificados. Os depuradores também podem usar a reflexão para examinar membros privados de classes.
+
+### 14 - Como não permitir a serialização de atributos de uma classe em Java?
+O atributo Non-Serialized pode ser usado para impedir que as variáveis ​​de membro sejam serializadas.
+Você também deve tornar um objeto que potencialmente contém dados confidenciais de segurança não serializáveis, se possível. Aplique o atributo Não serializado a determinados campos que armazenam dados confidenciais se o objeto precisar ser serializado. Se você não excluir esses campos da serialização, os dados que eles armazenam ficarão visíveis para qualquer programa com permissão de serialização.
+
+#### 15- Você pode chamar um construtor de uma classe dentro de outro construtor?
+Sim, podemos chamar um construtor de uma classe dentro de outro construtor. Isso também é chamado de encadeamento de construtores. O encadeamento do construtor pode ser feito de 2 maneiras:
+- Dentro da mesma classe: Para construtores da mesma classe, a palavra-chave this() pode ser usada.
+- Da classe base: A palavra-chave super() é usada para chamar o construtor da classe base.O encadeamento do construtor segue o processo de herança. O construtor da subclasse primeiro chama o construtor da superclasse. Devido a isso, a criação do objeto da subclasse começa com a inicialização dos membros de dados da superclasse. O encadeamento do construtor funciona de maneira semelhante com qualquer número de classes. Cada construtor continua chamando a cadeia até o topo da cadeia.
+
+
+
+
+
+
