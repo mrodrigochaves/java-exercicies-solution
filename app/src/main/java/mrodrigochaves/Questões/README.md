@@ -108,3 +108,9 @@ Como sincronizamos esta função, este thread só pode usar o objeto depois que 
 
 #### 19. Explique o termo “Inicialização de chaves duplas” em Java?
 Double Brace Initialization é um termo Java que se refere à combinação de dois processos independentes. Existem duas chaves usadas nisso. A primeira chave cria uma classe interna anônima. A segunda chave é um bloco de inicialização. Quando ambos são usados ​​juntos, é conhecido como inicialização de chave dupla. A classe interna tem uma referência à classe externa envolvente, geralmente usando o ponteiro 'this'. Ele é usado para criar e inicializar em uma única instrução. Geralmente é usado para inicializar coleções. Reduz o código e também o torna mais legível.
+
+
+#### 20. Por que é dito que o método length() da classe String não retorna resultados precisos?
+O método length() da classe String não retorna resultados precisos porque
+simplesmente leva em consideração o número de caracteres dentro da String. Em outras palavras, pontos de código fora do BMP (Basic Multilingual Plane), ou seja, pontos de código com valor de U+10000 ou superior, serão ignorados.
+A razão para isso é histórica. Um dos objetivos originais de Java era considerar todo o texto como Unicode; ainda assim, o Unicode não definia pontos de código fora do BMP na época. Era tarde demais para modificar char quando o Unicode especificou esses pontos de código.
