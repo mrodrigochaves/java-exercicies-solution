@@ -106,4 +106,5 @@ a++;
 
 Como sincronizamos esta função, este thread só pode usar o objeto depois que o thread anterior o tiver usado.
 
-
+#### 19. Explique o termo “Inicialização de chaves duplas” em Java?
+Double Brace Initialization é um termo Java que se refere à combinação de dois processos independentes. Existem duas chaves usadas nisso. A primeira chave cria uma classe interna anônima. A segunda chave é um bloco de inicialização. Quando ambos são usados ​​juntos, é conhecido como inicialização de chave dupla. A classe interna tem uma referência à classe externa envolvente, geralmente usando o ponteiro 'this'. Ele é usado para criar e inicializar em uma única instrução. Geralmente é usado para inicializar coleções. Reduz o código e também o torna mais legível.
