@@ -114,3 +114,16 @@ Double Brace Initialization é um termo Java que se refere à combinação de do
 O método length() da classe String não retorna resultados precisos porque
 simplesmente leva em consideração o número de caracteres dentro da String. Em outras palavras, pontos de código fora do BMP (Basic Multilingual Plane), ou seja, pontos de código com valor de U+10000 ou superior, serão ignorados.
 A razão para isso é histórica. Um dos objetivos originais de Java era considerar todo o texto como Unicode; ainda assim, o Unicode não definia pontos de código fora do BMP na época. Era tarde demais para modificar char quando o Unicode especificou esses pontos de código.
+
+#### 21. Quais são as diferenças entre Heap e Stack Memory em Java?
+A principal diferença entre a memória Heap e Stack são:
+
+Características |  Pilha  | pilha
+    ------      |  ------ | ------
+Memória         | A memória da pilha é usada apenas por um thread de execução. | A memória heap é usada por todas as partes do aplicativo. | 
+Acesso          | A memória da pilha não pode ser acessada por outros threads. | Os objetos armazenados no heap são acessíveis globalmente.
+Gerenciamento de memória | Segue o modo LIFO para liberar memória. | A gestão da memória baseia-se na geração associada a cada objeto.
+Vida | Existe até o final da execução da thread. | A memória heap vive desde o início até o final da execução do aplicativo.
+Uso | A memória da pilha contém apenas primitivas locais e variáveis ​​de referência para objetos no espaço de heap. | Sempre que um objeto é criado, ele sempre é armazenado no espaço Heap.
+
+
