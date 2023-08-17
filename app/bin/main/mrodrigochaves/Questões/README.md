@@ -92,6 +92,7 @@ Sim, podemos chamar um construtor de uma classe dentro de outro construtor. Isso
 #### 16. Locais de memória contíguos geralmente são usados ​​para armazenar valores reais em uma matriz, mas não em ArrayList. Explicar.
 Uma matriz geralmente contém elementos dos tipos de dados primitivos, como int, float, etc. Nesses casos, a matriz armazena diretamente esses elementos em locais de memória contíguos. Enquanto um ArrayList não contém tipos de dados primitivos. Um arrayList contém a referência dos objetos em diferentes locais de memória em vez do próprio objeto. É por isso que os objetos não são armazenados em locais de memória contíguos.
 
-
+#### 17. Como a criação de uma String usando new() é diferente da criação de um literal?
+Quando criamos uma string usando new(), um novo objeto é criado. Considerando que, se criarmos uma string usando a sintaxe literal de string, ela pode retornar um objeto já existente com o mesmo nome.
 
 
