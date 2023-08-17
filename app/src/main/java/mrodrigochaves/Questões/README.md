@@ -89,7 +89,8 @@ Sim, podemos chamar um construtor de uma classe dentro de outro construtor. Isso
 - Dentro da mesma classe: Para construtores da mesma classe, a palavra-chave this() pode ser usada.
 - Da classe base: A palavra-chave super() é usada para chamar o construtor da classe base.O encadeamento do construtor segue o processo de herança. O construtor da subclasse primeiro chama o construtor da superclasse. Devido a isso, a criação do objeto da subclasse começa com a inicialização dos membros de dados da superclasse. O encadeamento do construtor funciona de maneira semelhante com qualquer número de classes. Cada construtor continua chamando a cadeia até o topo da cadeia.
 
-
+#### 16. Locais de memória contíguos geralmente são usados ​​para armazenar valores reais em uma matriz, mas não em ArrayList. Explicar.
+Uma matriz geralmente contém elementos dos tipos de dados primitivos, como int, float, etc. Nesses casos, a matriz armazena diretamente esses elementos em locais de memória contíguos. Enquanto um ArrayList não contém tipos de dados primitivos. Um arrayList contém a referência dos objetos em diferentes locais de memória em vez do próprio objeto. É por isso que os objetos não são armazenados em locais de memória contíguos.
 
 
 
