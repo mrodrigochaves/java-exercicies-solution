@@ -95,4 +95,15 @@ Uma matriz geralmente contém elementos dos tipos de dados primitivos, como int,
 #### 17. Como a criação de uma String usando new() é diferente da criação de um literal?
 Quando criamos uma string usando new(), um novo objeto é criado. Considerando que, se criarmos uma string usando a sintaxe literal de string, ela pode retornar um objeto já existente com o mesmo nome.
 
+#### 18. Por que a sincronização é necessária? Explique com a ajuda de um exemplo relevante.
+Java permite que vários threads sejam executados. Eles podem estar acessando a mesma variável ou objeto. A sincronização ajuda a executar threads um após o outro.
+É importante porque ajuda a executar todos os threads simultâneos enquanto está em sincronia. Evita erros de consistência de memória devido ao acesso à memória compartilhada. Um exemplo de código de sincronização é:
+
+public synchronized void increment()
+{
+a++;
+}
+
+Como sincronizamos esta função, este thread só pode usar o objeto depois que o thread anterior o tiver usado.
+
 
