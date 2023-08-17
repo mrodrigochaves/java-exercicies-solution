@@ -126,4 +126,10 @@ Gerenciamento de memória | Segue o modo LIFO para liberar memória. | A gestão
 Vida | Existe até o final da execução da thread. | A memória heap vive desde o início até o final da execução do aplicativo.
 Uso | A memória da pilha contém apenas primitivas locais e variáveis ​​de referência para objetos no espaço de heap. | Sempre que um objeto é criado, ele sempre é armazenado no espaço Heap.
 
+#### 22. O que é um pacote em Java? Liste as várias vantagens dos pacotes.
+Os pacotes em Java são a coleção de classes e interfaces relacionadas agrupadas. Ao usar pacotes, os desenvolvedores podem facilmente modularizar o código e otimizar sua reutilização. Além disso, o código dentro dos pacotes pode ser importado por outras classes e reutilizado. Abaixo listei algumas de suas vantagens:
+- Os pacotes ajudam a evitar conflitos de nomes
+- Eles fornecem controle de acesso mais fácil no código
+- Os pacotes também podem conter classes ocultas que não são visíveis para as classes externas e são usadas apenas dentro do pacote
+- Cria uma estrutura hierárquica adequada que facilita a localização das classes relacionadas
 
